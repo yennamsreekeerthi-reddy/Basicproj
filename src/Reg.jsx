@@ -19,7 +19,7 @@ function Reg()
         {
             //const res=await axiox.post("http://localhost:5000/reg",data)
             const res=await axios.post(
-                "https://basicpbackend1.onrender.com/reg",
+                "https://basicpbackend1.onrender.com/register",
                 data
             )
             alert(res.data)
@@ -41,6 +41,7 @@ function Reg()
     )
 }
 export default Reg;
+
 
 
 
